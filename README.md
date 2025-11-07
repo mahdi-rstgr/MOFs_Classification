@@ -1,5 +1,5 @@
 # MOFs Classification: Machine Learning for Carbon Capture
-![Abstract](images/Abstract.png)
+![Abstract](images/Abstract.jpg)
 
 
 ## Overview
