@@ -26,6 +26,24 @@ By leveraging data-driven methods, the project aims to accelerate the discovery 
 2. **Install dependencies** (see notebook for package list, e.g., pandas, numpy, scikit-learn, xgboost, seaborn, matplotlib, ydata-profiling)
 3. **Run `MOFs_classifications.ipynb`** to reproduce the analysis and results.
 
+## Results and Visualizations
+The following figures summarize the main results from the notebook:
+
+![Class distribution of promising and non-promising MOFs](images/Promising_Class_distribution.png)
+*Figure 1. Distribution of MOFs classified as promising and not promising for CO₂ uptake.*
+
+![Confusion matrix for MyLogisticRegression](images/Promising_Confusion_Matrix__MyLogisticRegression.png)
+*Figure 2. Confusion matrix for the custom logistic regression model on the CO₂ uptake classification task.*
+
+![ROC curve for CO₂ uptake classification](images/Promising_ROC.png)
+*Figure 3. ROC curve for the custom logistic regression model distinguishing promising MOFs for CO₂ uptake.*
+
+![Confusion matrix for Dummy Baseline Model (Water Stability)](images/Water_Stable_Confusion_Matrix_Dummy.png)
+*Figure 4. Confusion matrix for the dummy baseline model on the water stability classification task.*
+
+![ROC curve for XGBoost Pipeline (Water Stability)](images/Water_Stable_AUC_XGBoost_Pipeline.png)
+*Figure 5. ROC curve for the XGBoost pipeline model predicting water stable MOFs.*
+
 ## References
 - [Understanding the diversity of the metal-organic framework ecosystem](https://doi.org/10.1038/s41467-020-17755-8)
 - [MOF-ChemUnity: Unifying metal-organic framework data using large language models](https://chemrxiv.org/engage/chemrxiv/article-details/6838df8bc1cb1ecda036f363)
