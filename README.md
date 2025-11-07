@@ -1,4 +1,6 @@
 # MOFs Classification: Machine Learning for Carbon Capture
+![Abstract](images/Abstract.png)
+
 
 ## Overview
 This project applies machine learning classification models to identify promising metal–organic frameworks (MOFs) for carbon capture applications. The focus is on two key properties:
@@ -30,18 +32,23 @@ By leveraging data-driven methods, the project aims to accelerate the discovery 
 The following figures summarize the main results from the notebook:
 
 ![Class distribution of promising and non-promising MOFs](images/Promising_Class_distribution.png)
+
 *Figure 1. Distribution of MOFs classified as promising and not promising for CO₂ uptake.*
 
 ![Confusion matrix for MyLogisticRegression](images/Promising_Confusion_Matrix__MyLogisticRegression.png)
+
 *Figure 2. Confusion matrix for the custom logistic regression model on the CO₂ uptake classification task.*
 
 ![ROC curve for CO₂ uptake classification](images/Promising_ROC.png)
+
 *Figure 3. ROC curve for the custom logistic regression model distinguishing promising MOFs for CO₂ uptake.*
 
 ![Confusion matrix for Dummy Baseline Model (Water Stability)](images/Water_Stable_Confusion_Matrix_Dummy.png)
+
 *Figure 4. Confusion matrix for the dummy baseline model on the water stability classification task.*
 
 ![ROC curve for XGBoost Pipeline (Water Stability)](images/Water_Stable_AUC_XGBoost_Pipeline.png)
+
 *Figure 5. ROC curve for the XGBoost pipeline model predicting water stable MOFs.*
 
 ## References
